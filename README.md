@@ -37,17 +37,17 @@ base_dir = 'PATH/TO/DIRECTORY'
 ## Usage
 Run the script by executing the following command:
 
-```bash
+```
 python main.py
 ```
 
 The script will:
 
-Log in to your Transkribus account.
-Process the specified directory and its subdirectories to find image files and their corresponding XML files.
-Create a new job for each directory, uploading it as a document in your Transkribus collection.
+- Log in to your Transkribus account.
+- Process the specified directory and its subdirectories to find image files and their corresponding XML files.
+- Create a new job for each directory, uploading it as a document in your Transkribus collection.
 
-Directory Structure
+## Directory Structure
 The directory you process should follow this structure:
 
 ```
@@ -62,9 +62,9 @@ base_dir/
         └── page002.xml
 ```
 
-document_name: The name of the directory will be used as the document name in Transkribus.
-image1.jpg, image2.jpg: Image files representing pages of the document.
-image1.xml, image2.xml: pageXML files.
+- _document_name_: The name of the directory will be used as the document name in Transkribus.
+- _image1.jpg, image2.jpg_: Image files representing pages of the document.
+- _image1.xml, image2.xml_: pageXML files.
 
 ### Notes
 - Ensure that your images are in .jpg format and your XML files are named correctly.

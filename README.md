@@ -1,6 +1,6 @@
 # Transkribus Document Uploader
 
-This Python script automates the process of uploading multiple documents and their associated pages to a Transkribus collection. The documents and pages are uploaded by traversing through a specified directory containing image files and corresponding pageXML files in a page subdirectory.
+This Python script automates the process of uploading multiple documents with image and xml files to a Transkribus collection using Transkribus' REST API. It is tailored to mass uploading the results of running the  [Loghi](https://github.com/knaw-huc/loghi) pipeline.
 
 ## Requirements
 
